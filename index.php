@@ -52,8 +52,14 @@
             <img src="your-home-image.jpg" alt="Home Image">
             <p>Description: This is a spacious and well-maintained home in a great location. It features a beautiful backyard, modern kitchen, and much more. Don't miss this opportunity!</p>
             <p>Contact us for more information: <a href="tel:123-456-7890">123-456-7890</a></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+            
+            <!-- Add the video element with autoplay -->
+            <video width="560" height="315" controls autoplay>
+                <source src="your-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 </body>
 </html>
+
